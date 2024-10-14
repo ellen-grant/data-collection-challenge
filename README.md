@@ -66,13 +66,13 @@ Make sure you have the following installed:
   - ChromeDriver (for automated browsing)
   - Required Python libraries: Splinter, BeautifulSoup, Pandas, Matplotlib
 
-## Steps
+### Steps
 1. Clone the repository (if using version control) or download the project files.
 2. Run Jupyter Notebook:
   - Open the project in Jupyter Notebook and execute the cells step by step.
 3. Export the Data
 
-## File Structure
+### File Structure
 mars_weather_scraping/
 │
 ├── part_1_mars_news.ipynb          # Jupyter notebook for Mars news scraping
