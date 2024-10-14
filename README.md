@@ -75,9 +75,13 @@ Make sure you have the following installed:
 ### File Structure
 mars_weather_scraping/
 │
+
 ├── part_1_mars_news.ipynb          # Jupyter notebook for Mars news scraping
+
 ├── part_2_mars_weather.ipynb       # Jupyter notebook for Mars weather scraping and analysis
+
 ├── README.md                       # Project readme file
+
 └── mars_weather_data.csv           # CSV file containing the scraped Mars weather data
 
 ## Future Improvements
