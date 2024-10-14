@@ -76,7 +76,6 @@ Make sure you have the following installed:
 mars_weather_scraping/
 
 │
-
 ├── part_1_mars_news.ipynb          # Jupyter notebook for Mars news scraping
 
 ├── part_2_mars_weather.ipynb       # Jupyter notebook for Mars weather scraping and analysis
