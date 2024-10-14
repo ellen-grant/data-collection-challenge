@@ -28,14 +28,14 @@ The project consists of two main parts:
 
 ## Data Scraping Steps
 ### Part 1: Scrape Mars News
-1. Automated browsing: Splinter is used to open the Mars news website.
+1. Automated browsing: Splinter is used to open the Mars news website (https://static.bc-edx.com/data/web/mars_news/index.html).
 2. Scraping: Using BeautifulSoup, the script identifies and extracts the titles and preview texts of the news articles on the website.
 3. Data storage: The scraped data is stored in a list of dictionaries, where each dictionary contains two keys:
   - title: The news article title.
   - preview: A short preview text of the article.
 
 ### Part 2: Scrape and Analyze Mars Weather Data
-1. Automated browsing: Splinter is used to open the Mars weather data site.
+1. Automated browsing: Splinter is used to open the Mars weather data site (https://static.bc-edx.com/data/web/mars_facts/temperature.html).
 2. Scraping: BeautifulSoup extracts the data from the HTML table, including:
   - id: Identification number of the transmission from the Curiosity Rover.
   - terrestrial_date: The date of the observation in Earth days.
@@ -91,4 +91,4 @@ mars_weather_scraping/
 - Automated Scheduling: Set up the scraping process to run at regular intervals to collect more recent data.
 
 ## Refernces
-The Mars News website is operated by edX Boot Camps LLC for educational purposes only. The news article titles, summaries, dates, and images were scraped from NASA's Mars News website in November 2022. Images are used according to the JPL Image Use Policy, courtesy NASA/JPL-Caltech.
+The Mars News website (https://static.bc-edx.com/data/web/mars_news/index.html) is operated by edX Boot Camps LLC for educational purposes only. The news article titles, summaries, dates, and images were scraped from NASA's Mars News website (https://mars.nasa.gov/) in November 2022. Images are used according to the JPL Image Use Policy (https://www.jpl.nasa.gov/jpl-image-use-policy), courtesy NASA/JPL-Caltech.
