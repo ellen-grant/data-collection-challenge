@@ -74,6 +74,7 @@ Make sure you have the following installed:
 
 ### File Structure
 mars_weather_scraping/
+
 │
 
 ├── part_1_mars_news.ipynb          # Jupyter notebook for Mars news scraping
